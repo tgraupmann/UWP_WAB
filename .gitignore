@@ -1,3 +1,6 @@
 .vs/
 bin/
 obj/
+AppPackages/
+BundleArtifacts/
+UWP_WAB_TemporaryKey.pfx

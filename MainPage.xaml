@@ -7,12 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Width="600"
-    Height="400">
+    Height="400"
+    Loaded="Page_Loaded">
 
     <StackPanel Background="#000" HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBlock Text="Enter a URL and click OPEN" FontSize="20" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
-            <TextBox Name="_mTextUrl" Foreground="Black" Background="White" Width="400" PlaceholderText="Enter URL" VerticalAlignment="Center"/>
+            <TextBox Name="_mTxtUrl" Foreground="Black" Background="White" Width="400" PlaceholderText="Enter URL" VerticalAlignment="Center" Text=""/>
             <Button Margin="10" Click="BtnOpen_Click">
                 <TextBlock Text="OPEN" Foreground="White" FontSize="20" Padding="10" />
             </Button>
